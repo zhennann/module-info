@@ -1,0 +1,28 @@
+{
+  "name": "@zhennann/module-info",
+  "version": "1.0.1",
+  "description": "@zhennann/module-info",
+  "main": "src/main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhennann/module-info.git"
+  },
+  "keywords": [
+    "egg",
+    "egg-born",
+    "cabloy",
+    "module-info"
+  ],
+  "author": "zhennann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhennann/module-info/issues"
+  },
+  "homepage": "https://github.com/zhennann/module-info#readme",
+  "dependencies": {
+    "egg-born-mparse": "^2.1.9"
+  }
+}
