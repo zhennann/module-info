@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "clean": "rimraf dist tsconfig.tsbuildinfo",
-    "tsc:publish": "npm run clean && vona :bin:buildGeneral && tsc",
+    "tsc:publish": "npm run clean && tsc",
     "prepublishOnly": "npm run tsc:publish",
     "prepack": "clean-package",
     "postpack": "clean-package restore"
@@ -41,8 +41,8 @@
     ]
   },
   "devDependencies": {
+    "@cabloy/lint": "^4.0.5",
     "clean-package": "^2.2.0",
     "rimraf": "^6.0.1"
-  },
-  "gitHead": "0eab9dc4a5622caffe89e7b1b3f02c08ccbc4c4b"
+  }
 }
