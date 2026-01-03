@@ -43,6 +43,7 @@
   "devDependencies": {
     "@cabloy/lint": "^4.0.5",
     "clean-package": "^2.2.0",
-    "rimraf": "^6.0.1"
+    "rimraf": "^6.0.1",
+    "tsdown": "^0.18.3"
   }
 }
