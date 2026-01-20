@@ -48,6 +48,7 @@ export interface IModuleInfo {
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
     onionsConfig?: TypeOnionsConfig;
+    beansPreload?: string[];
   };
 }
 
@@ -122,6 +123,7 @@ export interface IModulePackage {
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
     onionsConfig?: TypeOnionsConfig;
+    beansPreload?: string[];
     bundle?: {
       vendors?: Array<IBundleVendor>;
     };
