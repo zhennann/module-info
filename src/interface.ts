@@ -1,9 +1,9 @@
-import type { VonaOnionOptionsMeta } from './vona.ts';
-import type { ZovaOnionOptionsMeta } from './zova.ts';
+import type { VonaOnionOptionsMeta } from "./vona.ts";
+import type { ZovaOnionOptionsMeta } from "./zova.ts";
 
-export type TypeProjectMode = 'front' | 'api' | 'zova' | 'vona';
-export type TypeProjectEntityType = 'module' | 'suite';
-export type TypeBrandName = 'zova' | 'vona';
+export type TypeProjectMode = "front" | "api" | "zova" | "vona";
+export type TypeProjectEntityType = "module" | "suite";
+export type TypeBrandName = "zova" | "vona";
 
 export interface IOnionsConfigItem {
   enable?: boolean;
@@ -148,4 +148,5 @@ export interface IGlobBeanFile {
   beanNameCapitalize: string;
   isIgnore: boolean;
   isVirtual: boolean;
+  isPreload: boolean;
 }
