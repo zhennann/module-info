@@ -151,5 +151,5 @@ export interface IGlobBeanFile {
   beanFullName: string;
   isIgnore: boolean;
   isVirtual: boolean;
-  isPreload: boolean;
+  isPreload?: boolean;
 }
