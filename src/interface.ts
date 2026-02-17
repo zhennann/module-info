@@ -112,6 +112,7 @@ export interface IModulePackage {
     dependencies?: Record<string, string>;
     globalDependencies?: Record<string, string | boolean>;
     globalDependenciesDev?: Record<string, string | boolean>;
+    disables?: string[];
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
   };
@@ -120,6 +121,7 @@ export interface IModulePackage {
     dependencies?: Record<string, string>;
     globalDependencies?: Record<string, string | boolean>;
     globalDependenciesDev?: Record<string, string | boolean>;
+    disables?: string[];
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
     onionsConfig?: TypeOnionsConfig;
