@@ -115,6 +115,9 @@ export interface IModulePackage {
     disables?: string[];
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
+    bundle?: {
+      replaces?: Array<[string, string]>;
+    };
   };
   zovaModule?: {
     capabilities?: IModuleCapabilitiesZova;
