@@ -116,6 +116,7 @@ export interface IModulePackage {
     onions?: OnionScenesMeta;
     metas?: OnionMetasMeta;
     bundle?: {
+      externals?: string[];
       replaces?: Array<[string, string]>;
     };
   };
